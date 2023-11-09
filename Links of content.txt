@@ -1,0 +1,5 @@
+1. Array 50 problems
+	https://www.geeksforgeeks.org/top-50-array-coding-problems-for-interviews/
+
+2. DSA
+	https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/
