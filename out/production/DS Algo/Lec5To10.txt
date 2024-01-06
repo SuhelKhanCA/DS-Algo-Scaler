@@ -1,0 +1,8 @@
+// This is file to explain the contanets of the lectures from 6 to 10.
+
+Lec 6: 
+Lec 7: 
+Lec 8: 
+Lec 9: 
+Lec 9: 
+Lec 10: 
