@@ -1,9 +1,10 @@
+// https://docs.oracle.com/en/java/javase/21/index.html
 // 2D arrays declarations and initializations
-package Lec12;
+//package Lec12;
 
 import java.util.Arrays;
 
-class Example12b{
+public class Example12b{
     public static void main(String args[]){
         int[][] arr = new int[3][];
         arr[0] = new int[2];
