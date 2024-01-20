@@ -17,16 +17,16 @@ public class ArrayDefinitionDemo {
         Object[] objects = {x, args, isPrime, fib, b, a};
         //System.out.println(Arrays.toString(a));
         // System.out.println(Arrays.toString(objects));
-        // for (int i = 0; i < a.length; i++) {
-        //     if (a[i] != null) {
-        //         for (int j = 0; j < a[i].length; j++) {
-        //             System.out.print(a[i][j] + " ");
-        //         }
-        //         System.out.println();
-        //     } else {
-        //         System.out.println("null");
-        //     }
-        // }
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] != null) {
+                for (int j = 0; j < a[i].length; j++) {
+                    System.out.print(a[i][j] + " ");
+                }
+                System.out.println();
+            } else {
+                System.out.println("null");
+            }
+        }
         // for (Object object : objects) {
         //     System.out.println(Arrays.toString(objects));
         // } This prints addresses of the elements
