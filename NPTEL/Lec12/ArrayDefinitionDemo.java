@@ -1,5 +1,5 @@
 /*The following program explains the various way of declaring and initializing an array */
-
+package Lec12;
 import java.util.Arrays;
 
 public class ArrayDefinitionDemo {
@@ -17,16 +17,23 @@ public class ArrayDefinitionDemo {
         Object[] objects = {x, args, isPrime, fib, b, a};
         //System.out.println(Arrays.toString(a));
         // System.out.println(Arrays.toString(objects));
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] != null) {
-                for (int j = 0; j < a[i].length; j++) {
-                    System.out.print(a[i][j] + " ");
-                }
-                System.out.println();
-            } else {
-                System.out.println("null");
-            }
-        }
+        // for (int i = 0; i < a.length; i++) {
+        //     if (a[i] != null) {
+        //         for (int j = 0; j < a[i].length; j++) {
+        //             System.out.print(a[i][j] + " ");
+        //         }
+        //         System.out.println();
+        //     } else {
+        //         System.out.println("null");
+        //     }
+        // }
+        // for (Object object : objects) {
+        //     System.out.println(Arrays.toString(objects));
+        // } This prints addresses of the elements
+        
+        // for (int i = 0; i < objects.length; i++) {
+        //     System.out.println(objects[i]);
+        // } this too prints the address
         
     }
 }
