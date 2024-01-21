@@ -1,0 +1,6 @@
+/*
+     * The matrix method that is done:
+     * ----- Addition/Subtraction of matrix
+     * ----- Multiplication of matix
+     * ----- Transpose of a matrix ==>> This is very important operation because all the 2D array rotation is based pn this operatiopn
+*/
