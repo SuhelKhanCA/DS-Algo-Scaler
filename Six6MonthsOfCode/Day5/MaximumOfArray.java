@@ -1,4 +1,4 @@
-//package 6MonthsOfCode.Day5;
+package Six6MonthsOfCode.Day5;
 
 public class MaximumOfArray {
     public static void main(String[] args) {
