@@ -28,7 +28,7 @@ public class Rotate2DClockwise90 {
         int left  = 0;
         int right = a[0].length - 1;
             for (int i = 0; i < a[0].length; i++) {
-                while (left < right) {
+                while (left < right) { // n^2 complexity
                     int tmp = a[i][left];
                     a[i][left] = a[i][right];
                     a[i][right] = tmp;
