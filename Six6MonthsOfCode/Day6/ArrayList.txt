@@ -1,5 +1,5 @@
 ArrayList:- It is a dynamic array of objects.
-        Difference :
+        Difference : 
             1. Arrays are natural data structures whereas ArrayList is an added class.
             2. Arrays are of fixed size whereas Arraylist can grow and shrink.
             3. Arrays can hold primitve datatypes whereas ArrayList can hold objects only.
