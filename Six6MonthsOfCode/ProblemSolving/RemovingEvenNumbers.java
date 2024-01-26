@@ -2,24 +2,24 @@ package Six6MonthsOfCode.ProblemSolving;
 import java.util.*;
 public class RemovingEvenNumbers{
     public static void main(String[] args) {
-        //int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+       Integer[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         ArrayList<Integer> numbers = new ArrayList<Integer>();
-        // List ls = Arrays.asList(arr);
-        // numbers = Arrays.asList(arr);
+       
+        Collections.addAll(numbers, arr);
 
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
-        numbers.add(5);
-        numbers.add(6);
-        numbers.add(7);
-        numbers.add(8);
-        numbers.add(9);
-        numbers.add(10);
-        numbers.add(11);
-        numbers.add(12);
-        numbers.add(13);
+        // numbers.add(1);
+        // numbers.add(2);
+        // numbers.add(3);
+        // numbers.add(4);
+        // numbers.add(5);
+        // numbers.add(6);
+        // numbers.add(7);
+        // numbers.add(8);
+        // numbers.add(9);
+        // numbers.add(10);
+        // numbers.add(11);
+        // numbers.add(12);
+        // numbers.add(13);
         
         System.out.println("Before removing : " + numbers);
         for (int i = numbers.size() -1; i >= 0; i--) {
