@@ -1,4 +1,3 @@
-package LEC04;
 public class GenericMultiArraysDemo{
     public static void main(String[] args){
         String t[] = {"A", "B", "c"};

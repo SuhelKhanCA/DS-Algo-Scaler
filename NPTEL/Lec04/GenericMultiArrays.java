@@ -1,4 +1,4 @@
-package LEC04;
+package Lec04;
 // Generic class with method overloading
 public class GenericMultiArrays<T, S>{
     T a[];
