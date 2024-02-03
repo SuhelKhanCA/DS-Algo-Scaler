@@ -15,6 +15,9 @@ class StringClass
 			if(s.charAt(i)==' '){
 				count++; // count = count +1;
             }
+			// if (s.hasNextLine()==0) { // ?? ==>> to be searched
+				
+			// }
             if (s.charAt(i)!=' ') {
                 chrs++;
             }
