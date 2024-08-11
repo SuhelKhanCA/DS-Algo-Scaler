@@ -1,3 +1,0 @@
-#JAVA Collection Framework
-    is used as tool to manage data structure easily
-    except graph every data structure can be realised using JCF
