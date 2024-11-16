@@ -8,13 +8,15 @@ class SumEqualsK { // Brute Force
     static int count(int[] a, int tar) {
         int c = 0;
 
-        for (int i = 0; i < a.length; i++) {
-            for (int j = i + 1; i < a.length; i++) {
-                if (a[i] + a[j] == tar) {
-                    c++;
-                }
-            }
-        }
+        // for (int i = 0; i < a.length; i++) { // O(n^2)
+        //     for (int j = i + 1; j < a.length; j++) {
+        //         if (a[i] + a[j] == tar) {
+        //             c++;
+        //         }
+        //     }
+        // }
+
+        
 
         return c;
     }
